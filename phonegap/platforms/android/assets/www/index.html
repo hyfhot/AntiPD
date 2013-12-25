@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>产后抑郁测试</title>
+    <style type="text/css">
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+            height: 100%;
+            background-color: #67c52f
+        }
+		
+        #splashTitle {
+            position: absolute;
+            top: 50%;
+			font-size:xx-large;
+			font-weight:bolder;
+			color:#FFF;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+		}
+
+        #appLoadingIndicator {
+            position: absolute;
+            top: 60%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 0.5s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: linear;
+        }
+
+        #appLoadingIndicator > * {
+            background-color: #FFFFFF;
+            display: inline-block;
+            height: 30px;
+            -webkit-border-radius: 15px;
+            margin: 0 5px;
+            width: 30px;
+            opacity: 0.8;
+        }
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script type="text/javascript">/**
+ * Sencha Blink - Testing
+ * @author Jacky Nguyen <jacky@sencha.com>
+ */
+(function(global) {
+    var head = global.document.head,
+        Ext = global.Ext;
+
+    if (typeof Ext == 'undefined') {
+        global.Ext = Ext = {};
+    }
+
+    function write(content) {
+        document.write(content);
+    }
+
+    function addMeta(name, content) {
+        var meta = document.createElement('meta');
+
+        meta.setAttribute('name', name);
+        meta.setAttribute('content', content);
+        head.appendChild(meta);
+    }
+
+    Ext.blink = function(options) {
+        var scripts = options.js || [],
+            styleSheets = options.css || [],
+            i, ln, path, platform, theme;
+
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    "@media screen and (orientation: portrait) {" +
+                        "@-ms-viewport {width: 320px !important;}" +
+                    "}" +
+                    "@media screen and (orientation: landscape) {" +
+                        "@-ms-viewport {width: 560px !important;}" +
+                    "}"
+                )
+            );
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+        addMeta('viewport', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no');
+        addMeta('apple-mobile-web-app-capable', 'yes');
+        addMeta('apple-touch-fullscreen', 'yes');
+
+        Ext.microloaded = true;
+
+        var filterPlatform = window.Ext.filterPlatform = function(platform) {
+            var profileMatch = false,
+                ua = navigator.userAgent,
+                j, jln, exclude;
+
+            platform = [].concat(platform);
+
+            function isPhone(ua) {
+                var isMobile = /Mobile(\/|\s)/.test(ua);
+
+                // Either:
+                // - iOS but not iPad
+                // - Android 2
+                // - Android with "Mobile" in the UA
+
+                return /(iPhone|iPod)/.test(ua) ||
+                          (!/(Silk)/.test(ua) && (/(Android)/.test(ua) && (/(Android 2)/.test(ua) || isMobile))) ||
+                          (/(BlackBerry|BB)/.test(ua) && isMobile) ||
+                          /(Windows Phone)/.test(ua);
+            }
+
+            function isTablet(ua) {
+                return !isPhone(ua) && (/iPad/.test(ua) || /Android|Silk/.test(ua) || /(RIM Tablet OS)/.test(ua) ||
+                    (/MSIE 10/.test(ua) && /; Touch/.test(ua)));
+            }
+
+            // Check if the ?platform parameter is set in the URL
+            var paramsString = window.location.search.substr(1),
+                paramsArray = paramsString.split("&"),
+                params = {},
+                testPlatform, i;
+
+            for (i = 0; i < paramsArray.length; i++) {
+                var tmpArray = paramsArray[i].split("=");
+                params[tmpArray[0]] = tmpArray[1];
+            }
+
+            testPlatform = params.platform;
+            if (testPlatform) {
+                return platform.indexOf(testPlatform) != -1;
+            }
+
+            for (j = 0, jln = platform.length; j < jln; j++) {
+                switch (platform[j]) {
+                    case 'phone':
+                        profileMatch = isPhone(ua);
+                        break;
+                    case 'tablet':
+                        profileMatch = isTablet(ua);
+                        break;
+                    case 'desktop':
+                        profileMatch = !isPhone(ua) && !isTablet(ua);
+                        break;
+                    case 'ios':
+                        profileMatch = /(iPad|iPhone|iPod)/.test(ua);
+                        break;
+                    case 'android':
+                        profileMatch = /(Android|Silk)/.test(ua);
+                        break;
+                    case 'blackberry':
+                        profileMatch = /(BlackBerry|BB)/.test(ua);
+                        break;
+                    case 'safari':
+                        profileMatch = /Safari/.test(ua) && !(/(BlackBerry|BB)/.test(ua));
+                        break;
+                    case 'chrome':
+                        profileMatch = /Chrome/.test(ua);
+                        break;
+                    case 'ie10':
+                        profileMatch = /MSIE 10/.test(ua);
+                        break;
+                    case 'windows':
+                        profileMatch = /MSIE 10/.test(ua) || /Trident/.test(ua);
+                        break;
+                    case 'tizen':
+                        profileMatch = /Tizen/.test(ua);
+                        break;
+                    case 'firefox':
+                        profileMatch = /Firefox/.test(ua);
+                }
+                if (profileMatch) {
+                    return true;
+                }
+            }
+            return false;
+        };
+
+        for (i = 0,ln = styleSheets.length; i < ln; i++) {
+            path = styleSheets[i];
+
+            if (typeof path != 'string') {
+                platform = path.platform;
+                exclude = path.exclude;
+                theme = path.theme;
+                path = path.path;
+            }
+
+            if (platform) {
+                if (!filterPlatform(platform) || filterPlatform(exclude)) {
+                    continue;
+                }
+                Ext.theme = {
+                    name: theme || 'Default'
+                };
+            }
+            write('<link rel="stylesheet" href="'+path+'">');
+        }
+
+        for (i = 0,ln = scripts.length; i < ln; i++) {
+            path = scripts[i];
+
+            if (typeof path != 'string') {
+                platform = path.platform;
+                exclude = path.exclude;
+                path = path.path;
+            }
+
+            if (platform) {
+                if (!filterPlatform(platform) || filterPlatform(exclude)) {
+                    continue;
+                }
+            }
+
+            write('<script src="'+path+'"></'+'script>');
+        }
+    }
+
+})(this);Ext.blink({"id":"fb170389-4b03-4802-b67e-85237c915016","js":[{"path":"phonegap.js","remote":true},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/app.css","update":"delta"},{"path":"theme/mycss.css"}]});</script>
+</head>
+<body orient="portrait">
+	<script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+		
+        // PhoneGap加载完
+        function onDeviceReady() {
+            //checkConnection();
+            //按钮事件
+            document.addEventListener("backbutton", eventBackButton, false); //返回键
+            //document.addEventListener("menubutton", eventMenuButton, false); //菜单键
+            //document.addEventListener("searchbutton", eventSearchButton, false); //搜索键
+			
+        }
+        
+        function onCancelTestConfirm(button) {
+            if (button == '1') {
+				Ext.Viewport.animateActiveItem(Ext.getCmp('mainview'), { type: 'slide', direction: 'right' });
+				Ext.getCmp('mainview').animateActiveItem(Ext.getCmp('testTaskview'), { type: 'slide', direction: 'right' });
+            } else {
+            }
+        }
+        
+        function onExitConfirm(button) {
+            if (button == '1') {
+                navigator.app.exitApp();
+            } else {
+            }
+        }
+        
+        //返回键
+        function eventBackButton() {
+			var activeView = Ext.Viewport.getActiveItem();
+			if( activeView.getId() == 'testView')
+			{
+				navigator.notification.confirm('停止产后抑郁测试？', // 显示信息
+					onCancelTestConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
+					'停止测试', // 标题
+					'停止,继续' // 按钮标签
+				);
+			}else{
+				navigator.notification.confirm('你不是一个人在战斗，让我们共同对抗抑郁！确定退出？', // 显示信息
+					onExitConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
+					'退出应用', // 标题
+					'确定,取消' // 按钮标签
+				);
+			}
+        }
+        
+        //菜单键
+        function eventMenuButton() {
+            //alert('点击了 菜单 按钮!');
+        }
+        
+        //搜索键
+        function eventSearchButton() {
+            //window.plugins.ToastPlugin.show_short('点击了 搜索 按钮
+        }
+        
+        function checkConnection() {
+            var networkState = navigator.network.connection.type;
+            var states = {};		
+            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI]     = 'WiFi connection';
+            states[Connection.CELL_2G]  = 'Cell 2G connection';
+            states[Connection.CELL_3G]  = 'Cell 3G connection';
+            states[Connection.CELL_4G]  = 'Cell 4G connection';
+            states[Connection.NONE]     = 'No network connection';
+			console.log(states[networkState]);
+            if(states[networkState]=='No network connection'||typeof states[networkState] == "undefined")
+            {
+                Ext.Msg.alert('警告', '应用需要连接网络获得数据，请打开网络.', function(){
+                	navigator.app.exitApp();
+                });
+            }
+        };
+    </script>
+
+    <div id="splashTitle">一切为了爱!</div>
+	<div id="appLoadingIndicator">
+        <br>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--<script src="http://172.168.23.42:9090/target/target-script-min.js#anonymous"></script>-->
+    <!--<script src="http://192.168.18.107:9090/target/target-script-min.js#anonymous"></script>-->
+    <!--<script src="http://192.168.1.99:9090/target/target-script-min.js#anonymous"></script>-->
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>产后抑郁测试</title>
+    <style type="text/css">
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+            height: 100%;
+            background-color: #67c52f
+        }
+		
+        #splashTitle {
+            position: absolute;
+            top: 50%;
+			font-size:xx-large;
+			font-weight:bolder;
+			color:#FFF;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+		}
+
+        #appLoadingIndicator {
+            position: absolute;
+            top: 60%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 0.5s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: linear;
+        }
+
+        #appLoadingIndicator > * {
+            background-color: #FFFFFF;
+            display: inline-block;
+            height: 30px;
+            -webkit-border-radius: 15px;
+            margin: 0 5px;
+            width: 30px;
+            opacity: 0.8;
+        }
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>
+</head>
+<body orient="portrait">
+	<script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+		
+        // PhoneGap加载完
+        function onDeviceReady() {
+            //checkConnection();
+            //按钮事件
+            document.addEventListener("backbutton", eventBackButton, false); //返回键
+            //document.addEventListener("menubutton", eventMenuButton, false); //菜单键
+            //document.addEventListener("searchbutton", eventSearchButton, false); //搜索键
+			
+        }
+        
+        function onCancelTestConfirm(button) {
+            if (button == '1') {
+				Ext.Viewport.animateActiveItem(Ext.getCmp('mainview'), { type: 'slide', direction: 'right' });
+				Ext.getCmp('mainview').animateActiveItem(Ext.getCmp('testTaskview'), { type: 'slide', direction: 'right' });
+            } else {
+            }
+        }
+        
+        function onExitConfirm(button) {
+            if (button == '1') {
+                navigator.app.exitApp();
+            } else {
+            }
+        }
+        
+        //返回键
+        function eventBackButton() {
+			var activeView = Ext.Viewport.getActiveItem();
+			if( activeView.getId() == 'testView')
+			{
+				navigator.notification.confirm('停止产后抑郁测试？', // 显示信息
+					onCancelTestConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
+					'停止测试', // 标题
+					'停止,继续' // 按钮标签
+				);
+			}else{
+				navigator.notification.confirm('你不是一个人在战斗，让我们共同对抗抑郁！确定退出？', // 显示信息
+					onExitConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
+					'退出应用', // 标题
+					'确定,取消' // 按钮标签
+				);
+			}
+        }
+        
+        //菜单键
+        function eventMenuButton() {
+            //alert('点击了 菜单 按钮!');
+        }
+        
+        //搜索键
+        function eventSearchButton() {
+            //window.plugins.ToastPlugin.show_short('点击了 搜索 按钮
+        }
+        
+        function checkConnection() {
+            var networkState = navigator.network.connection.type;
+            var states = {};		
+            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI]     = 'WiFi connection';
+            states[Connection.CELL_2G]  = 'Cell 2G connection';
+            states[Connection.CELL_3G]  = 'Cell 3G connection';
+            states[Connection.CELL_4G]  = 'Cell 4G connection';
+            states[Connection.NONE]     = 'No network connection';
+			console.log(states[networkState]);
+            if(states[networkState]=='No network connection'||typeof states[networkState] == "undefined")
+            {
+                Ext.Msg.alert('警告', '应用需要连接网络获得数据，请打开网络.', function(){
+                	navigator.app.exitApp();
+                });
+            }
+        };
+    </script>
+
+    <div id="splashTitle">一切为了爱!</div>
+	<div id="appLoadingIndicator">
+        <br>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--<script src="http://172.168.23.42:9090/target/target-script-min.js#anonymous"></script>-->
+    <!--<script src="http://192.168.18.107:9090/target/target-script-min.js#anonymous"></script>-->
+    <!--<script src="http://192.168.1.99:9090/target/target-script-min.js#anonymous"></script>-->
+</body>
+</html>
