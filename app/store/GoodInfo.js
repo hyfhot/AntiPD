@@ -41,12 +41,12 @@ Ext.define('pdsencha.store.GoodInfo', {
                 image: './resources/images/mr2.jpg'
             },
             {
-                title: '母乳无可替代',
+                title: '母乳无可替代1',
                 info: '黄花菜是中国传统的催奶食物，催奶效果堪称神奇！',
                 image: './resources/images/mr3.jpg'
             },
             {
-                title: '母乳无可替代',
+                title: '母乳无可替代1',
                 info: '木瓜也是天然的催奶食物，哺乳期的妈妈可以定期吃一吃木瓜炖雪蛤！',
                 image: './resources/images/mr4.jpg'
             }

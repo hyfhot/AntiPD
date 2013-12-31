@@ -19,7 +19,6 @@ Ext.Loader.addClassPathMappings({
   "Ext.draw.engine.SvgContext.Gradient": "touch/src/draw/engine/SvgContext.js",
   "pdsencha": "app",
   "pdsencha.view.AnswersRadioField": "app/view/Test.js",
-  "pdsencha.view.Chart": "app/view/Main.js",
   "pdsencha.view.QuestionPanel": "app/view/Test.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
@@ -756,14 +755,16 @@ Ext.ClassManager.addNameAlternateMappings({
   "pdsencha.store.TestDetail": [],
   "pdsencha.store.TestRecord": [],
   "pdsencha.view.AnswersRadioField": [],
-  "pdsencha.view.Chart": [],
   "pdsencha.view.FirstRun": [],
   "pdsencha.view.GoodInfo": [],
   "pdsencha.view.HasRecordPanel": [],
   "pdsencha.view.Main": [],
   "pdsencha.view.QuestionPanel": [],
   "pdsencha.view.Test": [],
-  "pdsencha.view.TestResult": []
+  "pdsencha.view.TestChart": [],
+  "pdsencha.view.TestResult": [],
+  "pdsencha.view.aboutApp": [],
+  "pdsencha.view.aboutDev": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1723,9 +1724,6 @@ Ext.ClassManager.addNameAliasMappings({
   "pdsencha.view.AnswersRadioField": [
     "widget.answersradio"
   ],
-  "pdsencha.view.Chart": [
-    "widget.testchart"
-  ],
   "pdsencha.view.FirstRun": [
     "widget.firstrun",
     "widget.firstrunview"
@@ -1746,7 +1744,16 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.firstrunview",
     "widget.testview"
   ],
+  "pdsencha.view.TestChart": [
+    "widget.testchart"
+  ],
   "pdsencha.view.TestResult": [
     "widget.testresultpanel"
+  ],
+  "pdsencha.view.aboutApp": [
+    "widget.aboutapp"
+  ],
+  "pdsencha.view.aboutDev": [
+    "widget.aboutdev"
   ]
 });

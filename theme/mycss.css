@@ -2,3 +2,46 @@
     background-color: #67c52f !important;
     opacity:0.5;
 }
+
+.x-field .x-input-radio:after,
+.x-field.x-item-disabled .x-input-radio:checked:after {
+background: #910f7d;
+width: 1.3em;
+height: 1.3em;
+border-radius: 50%;
+border-style: none;
+}
+.x-field .x-input-radio:checked:after {
+background: #fff;
+width: 1.3em;
+height: 1.3em;
+border-radius: 50%;
+border-style: solid;
+border-color: #910f7d;
+border-width: 0.3em;
+}
+
+.x-list .x-list-disclosure:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '>';
+  font-family: 'system';
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 35px;
+  text-shadow: 0 0 0;
+}
+.x-list .x-list-item {
+    color: #67c52f;
+}
+.x-list-round .x-scroll-view{
+    background-color:#EEE !important;
+}
+
+.x-layout-card-item {
+    background: #67c52f;
+}

@@ -24,7 +24,7 @@ Ext.define('pdsencha.view.FirstRun', {
 			  html : '<div style="font-size:2em;color:#FFF">9个问题</div><div style="font-size:1.5em;color:#FFF;">该测试包括9个问题，这将帮助您评估您是否患上抑郁症，这些问题必须诚实回答。</div>'
 		  },
 		  {
-			  html : '<div style="font-size:2em;color:red">请注意</div><div style="font-size:1.5em;color:#FFF;">此应用程序仅供参考之用，并不能替代医生。如果您认为您可能有抑郁症，请咨询您的医生。</div>'
+			  html : '<div style="font-size:2em;color:orangered">请注意</div><div style="font-size:1.5em;color:#FFF;">此应用程序仅供参考之用，并不能替代医生。如果您认为您可能有抑郁症，请咨询您的医生。</div>'
 		  },
 		  {
 			items: [

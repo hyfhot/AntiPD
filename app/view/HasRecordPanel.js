@@ -45,7 +45,7 @@ Ext.define('pdsencha.view.HasRecordPanel', {
                         centered: true,
                         html: '测试结果',
                         style: {
-                            'font-size': '1.3em'
+                            'font-size': '1.5em'
                         }
                     }
                 ]
@@ -191,56 +191,6 @@ Ext.define('pdsencha.view.HasRecordPanel', {
                         }
                     }
                 ]
-            },
-            {
-                xtype: 'container',
-                docked: 'bottom',
-                height: '2em',
-                id: 'container1',
-                items: [
-                    {
-                        xtype: 'label',
-                        centered: false,
-                        html: '<<< 更多精彩',
-                        style: {
-                            'font-size': '0.8em',
-                            'text-align': 'right',
-                            'margin-right': '15px'
-                        }
-                    }
-                ]
-            },
-            {
-                xtype: 'button',
-                handler: function(button, e) {
-
-                },
-                height: 64,
-                left: '50px',
-                style: {
-                    color: '#FFF',
-                    margin: 'auto'
-                },
-                top: '350px',
-                ui: 'action',
-                width: '100px',
-                text: '认  识<br>抑  郁'
-            },
-            {
-                xtype: 'button',
-                handler: function(button, e) {
-        			Ext.Viewport.animateActiveItem("goodinfo", { type: 'slide', direction: 'left' });
-                },
-                height: 64,
-                left: '180px',
-                style: {
-                    color: '#FFF',
-                    margin: 'auto'
-                },
-                top: '350px',
-                ui: 'action',
-                width: 106,
-                text: '预   防<br>抑   郁'
             }
         ],
         listeners: [

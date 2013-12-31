@@ -7,7 +7,8 @@ Ext.define("pdsencha.controller.Pdctrl", {
             // We're going to lookup our views by xtype.
             firstRunView: "firstrunview",
             mainView: "mainview",
-			testView: "testview"
+			testView: "testview",
+			GoodInfo: "goodinfo"
         },
         control: {
             firstRunView: {
@@ -20,6 +21,9 @@ Ext.define("pdsencha.controller.Pdctrl", {
             },
 			testView: {
                 finishCommand: "onFinishCommand"
+			},
+			'goodinfo': {
+                show: "onGoodInfoCommand"
 			}
         }
     },
@@ -106,6 +110,10 @@ Ext.define("pdsencha.controller.Pdctrl", {
 		
 		//复原答题项目
 		sender.reSet();
+	},
+	onGoodInfoCommand: function( main, eOpts )
+	{
+        console.log("onGoodInfoShowCommand");
 	},
 
     // Base Class functions.

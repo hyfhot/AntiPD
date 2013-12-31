@@ -2,12 +2,11 @@
 Ext.define('pdsencha.view.QuestionPanel', {
     extend: 'Ext.form.Panel',
     xtype: 'questionpanel',
-　　 alias: ['widget.questionpanel'],
-	
+    alias: ['widget.questionpanel'],
     config: {
         score: -1,
 		index: -1 
- 　　},
+    },
 	initialize: function () {
         this.callParent(arguments);
     }
@@ -16,13 +15,13 @@ Ext.define('pdsencha.view.QuestionPanel', {
 Ext.define('pdsencha.view.AnswersRadioField', {
     extend: 'Ext.field.Radio',
     xtype: 'answersradio',
-　　 alias: ['widget.answersradio'],
+    alias: ['widget.answersradio'],
 	
     config: {
         score: -1,  
 		index: -1,
 		parentCarousel: null
- 　　},
+    },
 	initialize: function () {
         this.callParent(arguments);
     }
@@ -141,11 +140,11 @@ Ext.define('pdsencha.view.Test', {
 			{index:8, html: "<div style='font-size:2em;color:#67c52f;'>9、有不如死掉或用某种方式伤害自己的念头</div>" }
 		];
 		var listAnswers = [
+			{xtype: 'panel', height: '20px'},
 			{index:0, label: '完全不会', value: 0, score: 0},
 			{index:1, label: '偶尔', value: 1, score: 1},
 			{index:2, label: '一半以上的天数', value: 2, score: 2},
-			{index:3, label: '几乎每天', value: 3, score: 3},
-			{xtype: 'panel', height: '20px'}
+			{index:3, label: '几乎每天', value: 3, score: 3}
 		];
 		
 		var panelList =[
@@ -156,8 +155,8 @@ Ext.define('pdsencha.view.Test', {
 				html : "<div style='font-size:1.5em;color:#FFF;'>病人健康问卷—9(Patient Health Questionair—9，PHQ—9)是由《基层医疗精神疾病评估工具》(Primary Care Evaluation of Mental Disorders，PRI—MD)发展而来的抑郁筛选工具，具有简单易操作且信度和效度较高的特点</div>",
 				style: 'background-color:#67c52f;'
 			}
-		];		
-		var thisCarousel = this;
+		];
+
 		Ext.each(listQuestions, function(question) {
 			var configItems= {}; 
 			configItems = Ext.apply(configItems,{xtype:'questionpanel',fullscreen: true,score: -1});
@@ -168,16 +167,20 @@ Ext.define('pdsencha.view.Test', {
 		 			styleHtmlContent: true,
 					defaults: {
 						xtype: 'answersradio',
+						//name: 'answer',
+						//height: '50px',
+						//labelAlign: 'right',
+						//labelWidth: '75%',
+						//style: {
+						//	'font-size': '1.5em',
+						//	'padding':'0'
+						//},		
 						name: 'answer',
-						height: '50px',
+						docked: 'bottom',
 						labelAlign: 'right',
-						labelWidth: '75%',
-						style: {
-							'font-size': '1.5em',
-							'padding':'0'
-						},					
+						labelWidth: '80%',
 						listeners: {
-							check: function (sender, e, eOpts ){
+							check: function (sender){
 								var answerscore = this.getScore();
 								var myquestionpanel = sender.up('questionpanel');
 								myquestionpanel.setScore(answerscore);

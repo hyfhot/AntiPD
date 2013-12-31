@@ -1,149 +1,10 @@
-//Chart类
-Ext.define('pdsencha.view.Chart', {
-    extend: 'Ext.chart.CartesianChart',
-    xtype: 'testchart',
-	alias: ['widget.testchart'],
-	config:{
-		background: 'white',
-		showAnimation: 'popOut',
-		height: '40%',
-		series: [
-			{
-				type: 'line',
-				xField: 'dateCreated',
-				yField: 'score',
-				step:true,
-				smooth: true,
-				style: {
-					stroke: 'green',
-					fill: 'palegreen',
-					lineWidth: 4
-				},
-				marker: {
-					type: 'circle',
-					fill: 'palegreen',
-					radius: 6
-				},
-				renderer: function(sprite, config, rendererData, index) {
-					var store = rendererData.store,
-						storeItems = store.getData().items,
-						currentRecord = storeItems[index],
-						previousRecord = (index > 0 ? storeItems[index-1] : currentRecord),
-						current = currentRecord && currentRecord.data['score'],
-						previous = previousRecord && previousRecord.data['score'],
-						changes = {};
-						
-					switch(config.type) {
-						case "marker":
-						changes.lineWidth = 2;
-						break;
-					case "line":
-						changes.fillOpacity = .1;
-						break;
-					}
-					if(current < 5){ //无抑郁									
-						switch(config.type) {
-							case "marker":
-							changes.strokeStyle = 'green';//(current >= previous ? 'green' : 'red');
-							changes.fillStyle = 'palegreen';//(current >= previous ? 'palegreen' : 'lightpink');
-							break;
-						case "line":
-							changes.strokeStyle = 'green';// (current >= previous ? 'green' : 'red');
-							changes.fillStyle = 'palegreen';// (current >= previous ? 'palegreen' : 'tomato');
-							break;
-						}
-					}else if(current >= 5 && current < 10){//轻度抑郁					
-						switch(config.type) {
-							case "marker":
-							changes.strokeStyle = 'Chartreuse' ;
-							changes.fillStyle = 'GreenYellow' ;
-							break;
-						case "line":
-							changes.strokeStyle = 'Chartreuse' ;
-							changes.fillStyle = 'GreenYellow' ;
-							break;
-						}
-					}else if(current >= 10 && current < 15){//中度抑郁					
-						switch(config.type) {
-							case "marker":
-							changes.strokeStyle = 'LightSeaGreen' ;
-							changes.fillStyle = 'LightSkyBlue' ;
-							break;
-						case "line":
-							changes.strokeStyle = 'LightSeaGreen' ;
-							changes.fillStyle = 'LightSkyBlue' ;
-							break;
-						}
-					}else if(current >= 15 && current < 20){//中重度抑郁					
-						switch(config.type) {
-							case "marker":
-							changes.strokeStyle = 'LightCoral' ;
-							changes.fillStyle = 'Pink'  ;
-							break;
-						case "line":
-							changes.strokeStyle = 'LightCoral' ;
-							changes.fillStyle = 'Pink' ;
-							break;
-						}
-					}else { //重度抑郁					
-						switch(config.type) {
-							case "marker":
-							changes.strokeStyle = 'Red' ;
-							changes.fillStyle = 'DeepPink ';
-							break;
-						case "line":
-							changes.strokeStyle = 'Red' ;
-							changes.fillStyle = 'DeepPink ';
-							break;
-						}
-					}
-					return changes;
-				}
-			}
-		],
-		axes: [
-			{
-				type: 'numeric',
-				position: 'left',
-				fields: ['score'],
-				minimum: 0,
-				maximum: 30
-			},
-			{
-				type: 'time',
-				position: 'bottom',
-				fields: 'dateCreated',
-				renderer: function(label, layout, lastLabel) {
-					//每天一个Label标签
-					var curdate = new Date(label);
-					label = (curdate.getMonth()+1) + '月' + curdate.getDate() + '日';
-					if(lastLabel){
-						var predate = new Date(lastLabel);
-						if(predate.getFullYear() != curdate.getFullYear()){
-							label = curdate.getFullYear().toString() + (curdate.getMonth()+1).toString() + '月' + curdate.getDate().toString() + '日';
-						}else if(predate.getMonth() != curdate.getMonth()){
-							label = (curdate.getMonth()+1).toString() + '月';
-						}else if(predate.getDate() != curdate.getDate()){
-							label = curdate.getDate().toString() + '日';
-						}else {
-							label = '';
-						}
-					}
-					return label;
-				}
-			}
-		]
-	},
-	initialize: function () {
-        this.callParent(arguments);
-    }
-});
+
 
 Ext.define('pdsencha.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'mainview',
 	id: 'mainview',
-    requires: ['Ext.dataview.List' 
+    requires: ['Ext.dataview.List' ,'pdsencha.view.TestChart'
 		,'Ext.chart.Chart', 'Ext.chart.series.Line', 'Ext.chart.axis.Numeric' 
 		,'Ext.draw.modifier.Highlight', 'Ext.chart.axis.Time', 'Ext.chart.interactions.ItemHighlight'
 		,'Ext.Loader'
@@ -152,52 +13,42 @@ Ext.define('pdsencha.view.Main', {
         tabBarPosition: 'bottom',
 
         items: [
-            {
+			{
                 title: '测试',
                 iconCls: 'compose',
-                styleHtmlContent: true,
-                scrollable: false,
-				height: '100%',
+                xtype: 'panel',
+                padding: '1.2em',
 			  	style: 'background-color: #67c52f',
-				id: "testTaskview",
                 items: [
                     {
-						xtype: 'panel',
-						height: '100%',
-						//width: '100%',
-						style: {
-							'position': 'inherit',
-							'margin':'auto'
-						},					
-						items: [{
-							width: '100%',
-							height: '50%',
-							html: "<div style='font-size:1.8em;color:#FFF'>本应用是一个抑郁检测工具，用于协助基层保健医生诊断抑郁症，以及选择和监测治疗</div>"
-						},
-						{
-							width: '100%',
-							height: '50%',
-							items:[{
-								xtype: 'button',
-								width: '100px',
-								height: '50px',
-								text: '开始测试',
-								//centered: true,
-								style: {
-									'color': '#FFF',
-									'margin':'auto'
-								},						
-								ui: 'action',
-								itemId: "testButton"
-							}]
-											
-						}]
+                        xtype: 'label',
+                        html: '<div style=\'font-size:1.5em;color:#FFF\'>本应用是一个抑郁检测工具，用于协助基层保健医生诊断抑郁症，以及选择和监测治疗</div>'
+                    },
+                    {
+                        xtype: 'container',
+                        height: '30%',
+                        items: [
+                            {
+                                xtype: 'button',
+                                centered: true,
+                                height: '50px',
+                                itemId: 'testButton',
+                                style: {
+                                    color: '#FFF',
+                                    margin: 'auto',
+                                    'font-size': '1em'
+                                },
+                                ui: 'action',
+                                width: '100px',
+                                text: '测试'
+                            }
+                        ]
                     }
                 ]
             },
             {
-                title: '预防',
-                iconCls: 'star',
+                title: '结果',
+                iconCls: 'info',
 				id: "testresultview",
 				height:'100%',
 				style: {
@@ -211,6 +62,57 @@ Ext.define('pdsencha.view.Main', {
 						xtype: 'testresultpanel'
                     }
                 ]
+            },
+            {
+                title: '预防',
+                iconCls: 'star',
+				id: "antiview",
+				height:'100%',
+				style: {
+					'background-color': '#67c52f',
+					color: '#FFF'
+				},
+				xtype: 'carousel',
+                items: [
+                ],
+				listeners: [{
+            		delegate: "goodinfo",
+					event: "finish",
+					fn: function (sender) {
+						console.log("anti finish");
+						if (this.activeIndex < this.getMaxItemIndex()) {
+							this.next();
+						}else{
+							Ext.getCmp("mainview").getTabBar().show();
+							//调整界面
+							sender.resize(sender.element);
+						}
+					}
+				},{
+					delegate: "goodinfo",
+					event: "activate",
+					fn: function(newActiveItem, container, oldActiveItem, eOpts) {
+						//如果oldActiveItem为空，则说明不是由滑动操作触发的
+						if(Ext.isEmpty(oldActiveItem)){
+							return;
+						}
+						//如果TabBar显示，则自动隐藏
+						var tabbar = Ext.getCmp("mainview").getTabBar();
+						if(!tabbar.isHidden()){
+							tabbar.hide();
+						}
+						//切换显示
+						console.log('activate');
+						if(!Ext.isEmpty(oldActiveItem)){
+							oldActiveItem.stopAutoFilp();
+							oldActiveItem.resetFilp();
+						}
+						if(!Ext.isEmpty(newActiveItem)){
+							newActiveItem.startAutoFilp();
+							newActiveItem.resize(newActiveItem.element);
+						}
+					}
+				}]
             },
             {
                 title: '历史',
@@ -260,26 +162,83 @@ Ext.define('pdsencha.view.Main', {
 					itemId:"historyList",
 					height: '60%',
 					loadingText: "Loading ...",
-					emptyText: "<div class=\"notes-list-empty-text\">No records found.</div>",
-					onItemDisclosure: true,
+					emptyText: "您还未进行过抑郁测试！",
+                    disableSelection:'ture',
+					//onItemDisclosure: true,
 					grouped: true,
-					itemTpl: ['<div>{dateCreated:date("d日")} {[this.getWeek(values.dateCreated)]}</div><div>{score}</div>',
+					itemTpl: ['<div>{dateCreated:date("d日")}&nbsp;{[this.getweek(values.dateCreated)]}&nbsp;&nbsp;&nbsp;&nbsp;({score}/27)&nbsp;&nbsp;&nbsp;&nbsp;{[this.getlevel(values.score)]}</div>',
 						{
-							getWeek: function(testdate){
+							getweek: function(testdate){
 								if(typeof(testdate) != "undefined")
 								{
 									return new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六")[testdate.getDay()];
 								}
+							},
+							getlevel: function(score){								
+								var resultscore = score;
+								var resultlist = [
+									{minscore: 0,maxscore: 4,level: "没有抑郁", scoreinfo:"0-4分代表您一切正常", description: "继续保持良好的心态，并积极帮助其他抑郁患者！"},
+									{minscore: 5,maxscore: 9,level: "轻度抑郁", scoreinfo:"5-9分代表您轻度抑郁", description: "多回忆一下曾经令您快乐的事情，并继续观察：随访时复查PHQ-9！"},
+									{minscore: 10,maxscore: 14,level: "中度抑郁", scoreinfo:"10-14分代表您有中度抑郁", description: "多与身边的亲人和朋友联系，并告诉他们您现在的感受；同时制定治疗计划,考虑咨询、家访和药物治疗！"},
+									{minscore: 15,maxscore: 19,level: "中重度抑郁", scoreinfo:"15-19分代表您有中重度抑郁", description: "放松心情，认识到抑郁症可以通过调整自己的心态而得到改善；同时积极药物治疗和心理治疗！"},
+									{minscore: 20,maxscore: 27,level: "重度抑郁", scoreinfo:"20-27分代表您有重度抑郁", description: "立即治疗，首先选择药物,若严重损伤或对治疗无效,建议转移至精神疾病专家,进行心理治疗和综合治疗！"}
+								];								
+								//计算测试结果
+								var result = "轻度抑郁";
+								Ext.each(resultlist, function(item, index, allItems) {
+									if(item.minscore <= resultscore && item.maxscore >= resultscore)
+									{
+										result = item.level;
+									}
+								});
+								return result;
 							}
 						}]
 	 			}]
             },
             {
+                xtype: 'panel',
                 title: '更多',
                 iconCls: 'more',
-
+                padding: '1.2em',
+                style:{
+                    'background-color':'#FFF'
+                },
                 items: [
                     {
+                        xtype: 'list',
+                        itemId:'moreList',
+                        onItemDisclosure: function(record) {
+                            Ext.Viewport.animateActiveItem(record.data.view, { type: 'slide', direction: 'left' });
+                            console.log("onItemDisclosure");
+                        },
+                        data: [
+                            {
+                                name: '关于APP',
+                                view: 'aboutapp'
+                            },
+                            {
+                                name: '开发者信息',
+                                view: 'aboutdev'
+                            },
+                            {
+                                name: '更多资讯',
+                                view: 'moreinfo'
+                            },
+                            {
+                                name: '热门母婴应用',
+                                view: 'moreapp'
+                            }
+                        ],
+                        docked: 'top',
+                        height: '100%',
+                        disableSelection:'ture',
+                        style:{
+                            'background-color':'#FFF'
+                        },
+                        itemTpl: [
+                            '<div>{name}</div>'
+                        ]
                     }
                 ]
             }
@@ -326,6 +285,14 @@ Ext.define('pdsencha.view.Main', {
 				console.log("historyList itemswipe");
 			}
         },{
+            delegate: "#moreList",
+            event: "itemtap",
+            fn: function (item,  index, target, record, e, eOpts) {
+                Ext.Viewport.animateActiveItem(record.data.view, { type: 'slide', direction: 'left' });
+                console.log("moreList itemtap");
+                console.log(record);
+            }
+        },{
 			delegate: "#testhistorychart",
 			event: "show",
 			fn: function () {		
@@ -336,6 +303,38 @@ Ext.define('pdsencha.view.Main', {
 			event: "initialize",
 			fn:  function () {		
 				console.log("historyList");
+			}
+		},{
+			delegate: "#antiview",
+			event: "show",
+			fn:  function (item, eOpts) {	
+				this.getTabBar().hide();
+			    //未加载完成？
+				if(item.getItems().length <= 1){ //Carousel默认有一个indicator对象
+					//获取最后一条记录
+					var store = Ext.getStore("GoodInfo");
+					var panelList =[];
+					//store.load();
+					//this.data = store.data;
+					var groups = store.getGroups();
+					
+					Ext.each(groups, function(item, index, allItems) {
+						var newGoodInfo = Ext.create("pdsencha.view.GoodInfo", {
+							data:item.children
+						});
+						panelList.push(newGoodInfo);
+						//最后一个隐藏'更多精彩'label
+						if(index == allItems.length - 1){
+							newGoodInfo.down("#moreinfo").hide();
+						}
+					});
+					
+					item.add(panelList);
+				}
+				//设置第一个goodinfo对象自动播放
+				item.setActiveItem(0);
+				item.getActiveItem().startAutoFilp();
+				item.getActiveItem().resize(item.element);
 			}
 		},{
 			delegate: "#testhistoryView",

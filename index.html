@@ -96,19 +96,32 @@
         //返回键
         function eventBackButton() {
 			var activeView = Ext.Viewport.getActiveItem();
+            console.log(activeView);
+            console.log( activeView.getId());
 			if( activeView.getId() == 'testView')
 			{
 				navigator.notification.confirm('停止产后抑郁测试？', // 显示信息
 					onCancelTestConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
 					'停止测试', // 标题
-					'停止,继续' // 按钮标签
+					['停止','继续'] // 按钮标签
 				);
-			}else{
-				navigator.notification.confirm('你不是一个人在战斗，让我们共同对抗抑郁！确定退出？', // 显示信息
-					onExitConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
-					'退出应用', // 标题
-					'确定,取消' // 按钮标签
-				);
+			}else if( activeView.getId() == 'mainview'){
+				//正在播放预防知识?
+				var mainitem =activeView.getActiveItem( );
+                var infoitem = mainitem.getActiveItem();
+				if(mainitem.id == 'antiview' && infoitem && !infoitem.getIspause()){
+					//暂停
+					infoitem.pause();
+                    activeView.getTabBar().show();
+                    //调整界面
+                    infoitem.resize(infoitem.element);
+				}else{					
+					navigator.notification.confirm('你不是一个人在战斗，让我们共同对抗抑郁！确定退出？', // 显示信息
+						onExitConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
+						'退出应用', // 标题
+						['确定','取消'] // 按钮标签
+					);
+				}
 			}
         }
         
@@ -149,7 +162,7 @@
         <div></div>
         <div></div>
     </div>
-    <!--<script src="http://172.168.23.42:9090/target/target-script-min.js#anonymous"></script>-->
+    <script src="http://172.168.23.42:9090/target/target-script-min.js#anonymous"></script>
     <!--<script src="http://192.168.18.107:9090/target/target-script-min.js#anonymous"></script>-->
     <!--<script src="http://192.168.1.99:9090/target/target-script-min.js#anonymous"></script>-->
 </body>
