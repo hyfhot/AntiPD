@@ -21,7 +21,7 @@ Ext.application({
     stores: ["RunLog","TestRecord","TestDetail","GoodInfo"],
     controllers: ["Pdctrl"],	
     views: [
-        "FirstRun","Main","Test","TestResult","GoodInfo","aboutApp","aboutDev"
+        "FirstRun","Main","Test","TestResult","GoodInfo","aboutApp","aboutDev","moreInfo"
     ],
 
     icon: {
@@ -59,7 +59,8 @@ Ext.application({
 		Ext.Viewport.add(Ext.create('pdsencha.view.Main'));
 		Ext.Viewport.add(Ext.create('pdsencha.view.Test'));
 		Ext.Viewport.add(Ext.create('pdsencha.view.aboutApp'));
-        Ext.Viewport.add(Ext.create('pdsencha.view.aboutDev'));
+		Ext.Viewport.add(Ext.create('pdsencha.view.aboutDev'));
+		Ext.Viewport.add(Ext.create('pdsencha.view.moreInfo'));
 		
 		//增加运行日志
 		var newRunLog = Ext.create("pdsencha.model.RunLog", {

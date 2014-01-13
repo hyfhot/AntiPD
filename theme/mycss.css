@@ -2,7 +2,10 @@
     background-color: #67c52f !important;
     opacity:0.5;
 }
-
+.info-panel .x-panel-inner {
+    background-color: #67c52f !important;
+    color: #FFF;
+}
 .x-field .x-input-radio:after,
 .x-field.x-item-disabled .x-input-radio:checked:after {
 background: #910f7d;
@@ -40,8 +43,4 @@ border-width: 0.3em;
 }
 .x-list-round .x-scroll-view{
     background-color:#EEE !important;
-}
-
-.x-layout-card-item {
-    background: #67c52f;
 }

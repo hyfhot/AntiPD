@@ -108,8 +108,16 @@
 			}else if( activeView.getId() == 'mainview'){
 				//正在播放预防知识?
 				var mainitem =activeView.getActiveItem( );
-                var infoitem = mainitem.getActiveItem();
-				if(mainitem.id == 'antiview' && infoitem && !infoitem.getIspause()){
+                console.log(mainitem.getId());
+                var infoitem = undefined ;
+                if(mainitem.getId() == 'antiview'){
+                    infoitem = mainitem.getActiveItem();
+                    console.log(infoitem);
+                    console.log(infoitem.getIspause());
+                }
+                console.log(mainitem);
+				if(!Ext.isEmpty(infoitem) && !infoitem.getIspause()){
+                    console.log("no pause");
 					//暂停
 					infoitem.pause();
                     activeView.getTabBar().show();
@@ -122,7 +130,10 @@
 						['确定','取消'] // 按钮标签
 					);
 				}
-			}
+			}else
+            {
+                Ext.Viewport.animateActiveItem(Ext.getCmp('mainview'), { type: 'slide', direction: 'right' });
+            }
         }
         
         //菜单键
@@ -162,7 +173,7 @@
         <div></div>
         <div></div>
     </div>
-    <script src="http://172.168.23.42:9090/target/target-script-min.js#anonymous"></script>
+    <!--<script src="http://172.168.23.42:9090/target/target-script-min.js#anonymous"></script>-->
     <!--<script src="http://192.168.18.107:9090/target/target-script-min.js#anonymous"></script>-->
     <!--<script src="http://192.168.1.99:9090/target/target-script-min.js#anonymous"></script>-->
 </body>

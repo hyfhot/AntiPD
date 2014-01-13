@@ -764,7 +764,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "pdsencha.view.TestChart": [],
   "pdsencha.view.TestResult": [],
   "pdsencha.view.aboutApp": [],
-  "pdsencha.view.aboutDev": []
+  "pdsencha.view.aboutDev": [],
+  "pdsencha.view.moreInfo": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1755,5 +1756,8 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "pdsencha.view.aboutDev": [
     "widget.aboutdev"
+  ],
+  "pdsencha.view.moreInfo": [
+    "widget.moreinfo"
   ]
 });

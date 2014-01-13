@@ -30,6 +30,10 @@
     <description>
         本应用是一个抑郁检测工具,用于协助基层保健医生诊断抑郁症,以及选择和监测治疗.
     </description>
+    <name>产后抑郁测试</name>
+    <description>
+        本应用是一个抑郁检测工具,用于协助基层保健医生诊断抑郁症,以及选择和监测治疗.
+    </description>
     <author email="hyfhot@gmail.com" href="http://www.yuerxh.org">
         Edgar Huang
     </author>

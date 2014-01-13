@@ -5638,7 +5638,7 @@ body.x-desktop {
  * @class Ext.dataview.List
  */
 .x-list {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 .x-list .x-list-disclosure {
   position: relative;
@@ -5719,10 +5719,10 @@ body.x-desktop {
 }
 .x-list-normal .x-list-item.x-list-item-tpl,
 .x-list-normal .x-list-item .x-dock-horizontal {
-  border-top: 1px solid #dedede;
+  border-top: 1px solid #e6e6e6;
 }
 .x-list-normal .x-list-item.x-list-item-tpl.x-list-footer-wrap, .x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #e6e6e6;
 }
 .x-list-normal .x-list-item.x-item-pressed.x-list-item-tpl, .x-list-normal .x-list-item.x-item-pressed .x-dock-horizontal {
   border-top-color: #f9fdf6;
@@ -5766,9 +5766,9 @@ body.x-desktop {
 }
 .x-list-round.x-list-ungrouped .x-list-item-tpl,
 .x-list-round.x-list-ungrouped .x-list-item .x-dock-horizontal, .x-list-round.x-list-grouped .x-list-item-tpl, .x-list-round.x-list-grouped .x-list-item .x-dock-horizontal {
-  border: 1px solid #dedede;
+  border: 1px solid #e6e6e6;
   border-width: 1px 1px 0 1px;
-  background: #f7f7f7;
+  background: white;
 }
 .x-list-round.x-list-ungrouped .x-list-item-first {
   -moz-border-radius-topleft: 0.4em;
@@ -5797,7 +5797,7 @@ body.x-desktop {
   border-top-right-radius: 0.4em;
 }
 .x-list-round.x-list-grouped .x-list-header-wrap.x-list-header {
-  border: 1px solid #dedede;
+  border: 1px solid #e6e6e6;
   border-width: 1px 1px 0 1px;
   -moz-border-radius-topleft: 0.4em;
   -webkit-border-top-left-radius: 0.4em;
@@ -5820,8 +5820,8 @@ body.x-desktop {
 .x-list-round.x-list-grouped .x-list-footer-wrap.x-list-item-tpl > .x-dock-body,
 .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal > .x-innerhtml,
 .x-list-round.x-list-grouped .x-list-footer-wrap .x-dock-horizontal > .x-dock-body {
-  border: 1px solid #dedede;
-  background: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  background: white;
   -moz-border-radius-bottomleft: 0.4em;
   -webkit-border-bottom-left-radius: 0.4em;
   border-bottom-left-radius: 0.4em;
@@ -5853,13 +5853,13 @@ body.x-desktop {
 
 .x-list-round.x-list-grouped .x-list-item-odd.x-list-footer-wrap > .x-innerhtml,
 .x-list-round.x-list-grouped .x-list-item-odd.x-list-footer-wrap > .x-dock-body {
-  background-color: #eaeaea !important;
+  background-color: #f2f2f2 !important;
 }
 
 .x-list .x-list-item-odd.x-list-item-tpl,
 .x-list .x-list-item-odd .x-dock-horizontal {
-  background-color: #eaeaea !important;
-  border-bottom: 1px solid #eaeaea;
+  background-color: #f2f2f2 !important;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 /**

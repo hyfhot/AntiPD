@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2114856d-91eb-4913-a1ee-b6a6983c3e1e" name="Default" comment="增加【关于APP】和【关于开发者】页面">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.inappbrowser\www\InAppBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\ai9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\fs7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\gw7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\kx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\kx1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\mr9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\qs9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\sm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh12.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh14.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\xh9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yd1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\assets\www\resources\images\yy9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\cordova\node_modules\shelljs\jshint.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\cordova\node_modules\shelljs\scripts\docs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\libs\cordova-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\src\org\apache\cordova\devicemotion\AccelListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\src\org\apache\cordova\inappbrowser\InAppBrowser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\platforms\android\src\org\apache\cordova\inappbrowser\InAppChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\.fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\acceleration\acceleration.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\accelerometer.clearWatch.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\accelerometer.getCurrentAcceleration.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\accelerometer.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\accelerometer.watchAcceleration.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\parameters\accelerometerError.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\parameters\accelerometerOptions.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\docs\parameters\accelerometerSuccess.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\android\AccelListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\blackberry10\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\firefoxos\accelerometer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\ios\CDVAccelerometer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\ios\CDVAccelerometer.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\ubuntu\accelerometer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\ubuntu\accelerometer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\windows8\AccelerometerProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\src\wp\Accelerometer.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\accelerometer\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\html\HtmlReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\html\HtmlReporterHelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\html\ReporterView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\html\SpecView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\html\SuiteView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\html\TrivialReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\pages\accelerometer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\test-runner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\autotest\tests\accelerometer.tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\cordova-incl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\test\master.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\www\Acceleration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.device-motion\www\accelerometer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\.fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\docs\inappbrowser.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\docs\window.open.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\amazon\InAppBrowser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\amazon\InAppChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\android\InAppBrowser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\android\InAppChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\blackberry10\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\ios\CDVInAppBrowser.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\ios\CDVInAppBrowser.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\ubuntu\InAppBrowser.qml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\ubuntu\close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\ubuntu\inappbrowser.cpp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\ubuntu\inappbrowser.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\src\wp\InAppBrowser.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\cordova-incl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\inappbrowser\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\inappbrowser\inject.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\inappbrowser\inject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\inappbrowser\inject.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\inappbrowser\local.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\inappbrowser\local.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\test\master.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\www\InAppBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\plugins\org.apache.cordova.inappbrowser\www\windows8\InAppBrowserProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\ai9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\fs7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\gw7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\kx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\kx1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\mr9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\qs9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\sm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh12.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh14.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\xh9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yd1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\phonegap\www\resources\images\yy9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\ai9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\fs7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\gw7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\kx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\kx1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\mr9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\qs9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\sm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh12.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh14.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\xh9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yd1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Edgar\Android\AntiPD\resources\images\yy9.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/.npmignore" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/.travis.yml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/GoodInfo.js" afterPath="$PROJECT_DIR$/app/view/GoodInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/gen/R.java.d" afterPath="$PROJECT_DIR$/phonegap/platforms/android/gen/R.java.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/README.md" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/plugins/android.json" afterPath="$PROJECT_DIR$/phonegap/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/app.css" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/resources/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/resources/css/app.css" afterPath="$PROJECT_DIR$/phonegap/www/resources/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/app.js" afterPath="$PROJECT_DIR$/phonegap/www/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/build.bat" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/build.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/build.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/build" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/check_reqs.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/check_reqs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/check_reqs" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/check_reqs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/clean.bat" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/clean.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/clean.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/clean" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/clean" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/defaults.xml" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/defaults.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/device.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/emulator.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/emulator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/index.html" afterPath="$PROJECT_DIR$/phonegap/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/install-device" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/install-device" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/install-emulator" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/install-emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/list-devices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/list-emulator-images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/list-started-emulators" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/list-started-emulators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/log.bat" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/log.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/log.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/log.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/log" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/make.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/make.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/theme/mycss.css" afterPath="$PROJECT_DIR$/phonegap/platforms/android/assets/www/theme/mycss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/www/theme/mycss.css" afterPath="$PROJECT_DIR$/phonegap/www/theme/mycss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/mycss.css" afterPath="$PROJECT_DIR$/theme/mycss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/package.json" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packager.json" afterPath="$PROJECT_DIR$/packager.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/project.properties" afterPath="$PROJECT_DIR$/phonegap/platforms/android/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/run.bat" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/run.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/run.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/run.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/run" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/shell.js" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/node_modules/shelljs/shell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/start-emulator" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/lib/start-emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/version.bat" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/version.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phonegap/platforms/android/cordova/version" afterPath="$PROJECT_DIR$/phonegap/platforms/android/cordova/version" />
+    </list>
+    <list id="bdef41f4-e854-48e3-88cc-b87e384abe72" name="Rejected commit: Default" comment="增加【关于APP】和【关于开发者】页面" />
+    <ignored path="AntiPD.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AntiPD" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="txtdata.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/data/txtdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.7647059" vertical-offset="0" max-vertical-offset="361">
+              <folding>
+                <marker date="1388799157072" expanded="true" signature="63:88" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="119:146" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="225:250" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="276:303" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="378:408" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="433:460" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="553:578" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="604:631" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="809:835" placeholder="..." />
+                <marker date="1388799157072" expanded="true" signature="915:941" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="117" selection-start="720" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="7790">
+              <folding>
+                <marker date="1388584912915" expanded="false" signature="733:759" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResult.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/TestResult.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="114" selection-start="837" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1938">
+              <folding>
+                <marker date="1388488755535" expanded="false" signature="585:595" placeholder="..." />
+                <marker date="1388488755535" expanded="false" signature="850:876" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstRun.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/FirstRun.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="162" selection-start="715" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1520">
+              <folding>
+                <marker date="1388487627427" expanded="false" signature="398:422" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="451:478" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="567:591" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="615:642" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="727:756" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="779:806" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="918:942" placeholder="..." />
+                <marker date="1388487627427" expanded="false" signature="966:993" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="22" selection-start="4247" selection-end="4247" vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="3534">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moreInfo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/moreInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="56" selection-start="4025" selection-end="4025" vertical-scroll-proportion="0.0" vertical-offset="2147" max-vertical-offset="2375">
+              <folding>
+                <marker date="1388576506685" expanded="true" signature="556:4144" placeholder="{&quot;extend&quot;: 'Ext.Container'...}" />
+                <marker date="1388576506685" expanded="true" signature="795:4142" placeholder="{...}" />
+                <marker date="1388576506685" expanded="true" signature="812:3769" placeholder="[...]" />
+                <marker date="1388576506685" expanded="true" signature="1957:3759" placeholder="{&quot;xtype&quot;: 'list'...}" />
+                <marker date="1388576506685" expanded="true" signature="3548:3745" placeholder="[...]" />
+                <marker date="1388576506685" expanded="true" signature="3629:3649" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodInfo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/GoodInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="199" column="19" selection-start="5731" selection-end="5731" vertical-scroll-proportion="-151.24" vertical-offset="0" max-vertical-offset="5149">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodInfo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/GoodInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="14" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1254">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1841" selection-end="1841" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1710">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1960" column="14" selection-start="136993" selection-end="136993" vertical-scroll-proportion="0.0" vertical-offset="37022" max-vertical-offset="123329">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Edgar" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/view/FirstRun.js" />
+        <option value="$PROJECT_DIR$/app/view/TestResult.js" />
+        <option value="$PROJECT_DIR$/app/view/Test.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/theme/mycss.css" />
+        <option value="$PROJECT_DIR$/app/view/aboutApp.js" />
+        <option value="$PROJECT_DIR$/app/view/aboutDev.js" />
+        <option value="$PROJECT_DIR$/app/view/moreInfo.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/app/view/GoodInfo.js" />
+        <option value="$PROJECT_DIR$/app/data/package.json" />
+        <option value="$PROJECT_DIR$/app/data/txtdata.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AntiPD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$CompassModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="SearchEverywhereHistory" value="&#10;ispause" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2114856d-91eb-4913-a1ee-b6a6983c3e1e" name="Default" comment="" />
+      <created>1388458316902</created>
+      <updated>1388458316902</updated>
+    </task>
+    <task id="LOCAL-00001" summary="增加【关于APP】和【关于开发者】页面">
+      <created>1388489509205</created>
+      <updated>1388489509205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32736155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19851302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19851302" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="增加【关于APP】和【关于开发者】页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加【关于APP】和【关于开发者】页面" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="AntiPD" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="AntiPD" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/view/aboutDev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="105" selection-start="1207" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="3743" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="48" selection-start="6846" selection-end="6846" vertical-scroll-proportion="0.0" vertical-offset="4199" max-vertical-offset="7771">
+          <folding>
+            <marker date="1388584912915" expanded="false" signature="733:759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/FirstRun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1520">
+          <folding>
+            <marker date="1388487627427" expanded="false" signature="398:422" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="451:478" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="567:591" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="615:642" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="727:756" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="779:806" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="918:942" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="966:993" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="105" selection-start="4382" selection-end="4382" vertical-scroll-proportion="0.0" vertical-offset="2141" max-vertical-offset="3534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/moreInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="54" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2204">
+          <folding>
+            <marker date="1388576506685" expanded="true" signature="556:4144" placeholder="{&quot;extend&quot;: 'Ext.Container'...}" />
+            <marker date="1388576506685" expanded="true" signature="795:4142" placeholder="{...}" />
+            <marker date="1388576506685" expanded="true" signature="812:3769" placeholder="[...]" />
+            <marker date="1388576506685" expanded="true" signature="1957:3759" placeholder="{&quot;xtype&quot;: 'list'...}" />
+            <marker date="1388576506685" expanded="true" signature="3548:3745" placeholder="[...]" />
+            <marker date="1388576506685" expanded="true" signature="3629:3649" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/GoodInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="30" selection-start="6891" selection-end="6891" vertical-scroll-proportion="0.0" vertical-offset="4313" max-vertical-offset="5149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1841" selection-end="1841" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1960" column="14" selection-start="136993" selection-end="136993" vertical-scroll-proportion="0.0" vertical-offset="37022" max-vertical-offset="123329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="89" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="47" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="4275">
+          <folding>
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/aboutApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1767" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/aboutDev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="3743" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="53" selection-start="7430" selection-end="7430" vertical-scroll-proportion="0.0" vertical-offset="3884" max-vertical-offset="7771">
+          <folding>
+            <marker date="1388584912915" expanded="false" signature="733:759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/FirstRun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1520">
+          <folding>
+            <marker date="1388487627427" expanded="false" signature="398:422" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="451:478" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="567:591" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="615:642" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="727:756" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="779:806" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="918:942" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="966:993" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="17" selection-start="3749" selection-end="3749" vertical-scroll-proportion="0.0" vertical-offset="2063" max-vertical-offset="3477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/GoodInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="54" selection-start="6468" selection-end="6468" vertical-scroll-proportion="0.0" vertical-offset="4256" max-vertical-offset="5149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="56" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1960" column="14" selection-start="136993" selection-end="136993" vertical-scroll-proportion="0.0" vertical-offset="37022" max-vertical-offset="123329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="89" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="47" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="4275">
+          <folding>
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/aboutApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="21" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0" vertical-offset="1068" max-vertical-offset="1900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/FirstRun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1520">
+          <folding>
+            <marker date="1388487627427" expanded="false" signature="398:422" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="451:478" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="567:591" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="615:642" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="727:756" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="779:806" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="918:942" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="966:993" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/aboutDev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="37" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="3724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="38" selection-start="3568" selection-end="3568" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/GoodInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="32" selection-start="4781" selection-end="4788" vertical-scroll-proportion="0.0" vertical-offset="2978" max-vertical-offset="4940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="59" selection-start="2168" selection-end="2176" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1960" column="14" selection-start="136993" selection-end="136993" vertical-scroll-proportion="0.0" vertical-offset="37022" max-vertical-offset="123329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="47" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="4275">
+          <folding>
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="382" column="19" selection-start="11303" selection-end="11303" vertical-scroll-proportion="0.0" vertical-offset="7258" max-vertical-offset="7714">
+          <folding>
+            <marker date="1388584912915" expanded="false" signature="733:759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="30" selection-start="6592" selection-end="6592" vertical-scroll-proportion="0.0" vertical-offset="5795" max-vertical-offset="7714">
+          <folding>
+            <marker date="1388584912915" expanded="false" signature="733:759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Pdctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="6" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="2603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1960" column="14" selection-start="136993" selection-end="136993" vertical-scroll-proportion="0.0" vertical-offset="37022" max-vertical-offset="123329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1841" selection-end="1841" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="89" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/aboutApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="412" max-vertical-offset="1767" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/aboutDev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="105" selection-start="1207" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="3496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/moreInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="56" selection-start="4025" selection-end="4025" vertical-scroll-proportion="0.0" vertical-offset="1731" max-vertical-offset="2375">
+          <folding>
+            <marker date="1388576506685" expanded="true" signature="556:4144" placeholder="{&quot;extend&quot;: 'Ext.Container'...}" />
+            <marker date="1388576506685" expanded="true" signature="795:4142" placeholder="{...}" />
+            <marker date="1388576506685" expanded="true" signature="812:3769" placeholder="[...]" />
+            <marker date="1388576506685" expanded="true" signature="1957:3759" placeholder="{&quot;xtype&quot;: 'list'...}" />
+            <marker date="1388576506685" expanded="true" signature="3548:3745" placeholder="[...]" />
+            <marker date="1388576506685" expanded="true" signature="3629:3649" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="22" selection-start="4247" selection-end="4247" vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="3534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/GoodInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="14" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="47" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="4275">
+          <folding>
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388489381888" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/refresh-impl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="68" selection-start="4649" selection-end="4649" vertical-scroll-proportion="0.33241758" vertical-offset="2330" max-vertical-offset="2983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/GoodInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="19" selection-start="5731" selection-end="5731" vertical-scroll-proportion="-151.24" vertical-offset="0" max-vertical-offset="5149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="117" selection-start="720" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="7790">
+          <folding>
+            <marker date="1388584912915" expanded="false" signature="733:759" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/TestResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="114" selection-start="837" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1938">
+          <folding>
+            <marker date="1388488755535" expanded="false" signature="585:595" placeholder="..." />
+            <marker date="1388488755535" expanded="false" signature="850:876" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/FirstRun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="162" selection-start="715" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1520">
+          <folding>
+            <marker date="1388487627427" expanded="false" signature="398:422" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="451:478" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="567:591" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="615:642" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="727:756" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="779:806" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="918:942" placeholder="..." />
+            <marker date="1388487627427" expanded="false" signature="966:993" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/txtdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.7647059" vertical-offset="0" max-vertical-offset="361">
+          <folding>
+            <marker date="1388799157072" expanded="true" signature="63:88" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="119:146" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="225:250" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="276:303" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="378:408" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="433:460" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="553:578" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="604:631" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="809:835" placeholder="..." />
+            <marker date="1388799157072" expanded="true" signature="915:941" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

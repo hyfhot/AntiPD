@@ -13,7 +13,6 @@ Ext.define('pdsencha.view.GoodInfo', {
         index: 0, //当前信息页
 		interval: undefined, //播放计时器
 		ispause: false, //是否暂停中
-		//isallready: false, //是否加载完毕？避免创建时触发播放事件
         height: '100%',
         style: {
             'background-color': '#000'
@@ -131,14 +130,10 @@ Ext.define('pdsencha.view.GoodInfo', {
 			}
         ]
     },
-	//标识已加载完毕
-	//ready: function(){
-//		this.isallready = true;
-//	},
 	//大小变化时，自动调整界面显示
 	resize: function(element, eOpts) {
 		var infoMinHeight = '20%';
-		var mainpnl = Ext.getCmp(element.id);
+		var mainpnl = Ext.getCmp(element.getId());
 		var botoompnl = mainpnl.down("#bottompanel");
 		var botoominfo = mainpnl.down("#info");
 		var morepnl = mainpnl.down("#moreinfo");
@@ -162,11 +157,11 @@ Ext.define('pdsencha.view.GoodInfo', {
 	startAutoFilp: function()
 	{
 		//创建计时器？
-		if(Ext.isEmpty(this.interval)){
+		if(Ext.isEmpty(this.getInterval())){
 			//切换计时器
 			var fn = function(me){
 				//如果暂停，则不做任何处理
-				if(me.ispause){
+				if(me.getIspause()){
 					return;
 				}
 				//如果未到末尾，则继续播放
@@ -186,7 +181,9 @@ Ext.define('pdsencha.view.GoodInfo', {
 				}
 			};
 			
-        	this.interval = setInterval(fn,5000,this);
+        	this.setInterval(setInterval(fn,5000,this));
+            //设置自动播放提示
+            this.down("#moreinfo").setHtml("<<< 精彩自动播放中");
 		}
 		
 		this.resetFilp();
@@ -196,20 +193,27 @@ Ext.define('pdsencha.view.GoodInfo', {
 	//停止自动播放内部信息页
 	stopAutoFilp: function()
 	{
-		if(!Ext.isEmpty(this.interval))
+		if(!Ext.isEmpty(this.getInterval()))
 		{
-			this.interval = clearInterval(this.interval);
+            //设置自动播放提示
+            this.down("#moreinfo").setHtml("");
+            //清除计时器
+			this.setInterval(clearInterval(this.getInterval()));
 			console.log("fire stopAutoFilp");
 			this.fireEvent('stoped',this);
 		}
 	},
 	//暂停播放
 	pause: function(){
-		this.ispause = true;
+		this.setIspause(true);
+        //设置自动播放提示
+        this.down("#moreinfo").setHtml("<<< 自动播放暂停");
 	},
 	//恢复播放
 	resume: function(){
-		this.ispause = false;
+        this.setIspause(false);
+        //设置自动播放提示
+        this.down("#moreinfo").setHtml("<<< 精彩自动播放中");
 	},
 	resetFilp: function(){
         //返回第一个页面
@@ -217,9 +221,11 @@ Ext.define('pdsencha.view.GoodInfo', {
         this.down("#title").setHtml(goodinfoitem.data.title);
         this.down("#info").setHtml(goodinfoitem.data.info);
         this.down("#image").setSrc(goodinfoitem.data.image);
+        //设置自动播放提示
+        this.down("#moreinfo").setHtml("<<< 精彩自动播放中");
 
         this.index = 1;
-		this.ispause = false;
+        this.setIspause(false);
 	},
 	onUpdateData: function(component, newData, eOpts ){
 		console.log("onUpdateData");
@@ -237,9 +243,9 @@ Ext.define('pdsencha.view.GoodInfo', {
 		    tap: function() { 
 				console.log('tapped!'); 
 				//启动或停止自动播放	
-				var goodinfocmp = Ext.getCmp(this.id);	
+				var goodinfocmp = Ext.getCmp(this.getId());
 				var tabbar = Ext.getCmp("mainview").getTabBar();		
-				if(!goodinfocmp.ispause)
+				if(!goodinfocmp.getIspause())
 				{
 					//显示tabbar和toppanel
 					goodinfocmp.pause();
@@ -252,7 +258,7 @@ Ext.define('pdsencha.view.GoodInfo', {
 				}
 				
 				//调整界面
-				Ext.getCmp(this.id).resize(this);
+				Ext.getCmp(this.getId()).resize(this);
 			}
         });
     }

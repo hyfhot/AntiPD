@@ -222,13 +222,14 @@ Ext.define('pdsencha.view.Main', {
                                 view: 'aboutdev'
                             },
                             {
-                                name: '更多资讯',
+                                name: '产后抑郁知识',
                                 view: 'moreinfo'
-                            },
+                            }
+                            /*,
                             {
                                 name: '热门母婴应用',
                                 view: 'moreapp'
-                            }
+                            }*/
                         ],
                         docked: 'top',
                         height: '100%',

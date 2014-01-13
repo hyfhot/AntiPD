@@ -272,20 +272,44 @@
         //返回键
         function eventBackButton() {
 			var activeView = Ext.Viewport.getActiveItem();
+            console.log(activeView);
+            console.log( activeView.getId());
 			if( activeView.getId() == 'testView')
 			{
 				navigator.notification.confirm('停止产后抑郁测试？', // 显示信息
 					onCancelTestConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
 					'停止测试', // 标题
-					'停止,继续' // 按钮标签
+					['停止','继续'] // 按钮标签
 				);
-			}else{
-				navigator.notification.confirm('你不是一个人在战斗，让我们共同对抗抑郁！确定退出？', // 显示信息
-					onExitConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
-					'退出应用', // 标题
-					'确定,取消' // 按钮标签
-				);
-			}
+			}else if( activeView.getId() == 'mainview'){
+				//正在播放预防知识?
+				var mainitem =activeView.getActiveItem( );
+                console.log(mainitem.getId());
+                var infoitem = undefined ;
+                if(mainitem.getId() == 'antiview'){
+                    infoitem = mainitem.getActiveItem();
+                    console.log(infoitem);
+                    console.log(infoitem.getIspause());
+                }
+                console.log(mainitem);
+				if(!Ext.isEmpty(infoitem) && !infoitem.getIspause()){
+                    console.log("no pause");
+					//暂停
+					infoitem.pause();
+                    activeView.getTabBar().show();
+                    //调整界面
+                    infoitem.resize(infoitem.element);
+				}else{					
+					navigator.notification.confirm('你不是一个人在战斗，让我们共同对抗抑郁！确定退出？', // 显示信息
+						onExitConfirm, // 按下按钮后触发的回调函数，返回按下按钮的索引
+						'退出应用', // 标题
+						['确定','取消'] // 按钮标签
+					);
+				}
+			}else
+            {
+                Ext.Viewport.animateActiveItem(Ext.getCmp('mainview'), { type: 'slide', direction: 'right' });
+            }
         }
         
         //菜单键
